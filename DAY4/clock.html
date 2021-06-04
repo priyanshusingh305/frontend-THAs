@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/clock.png">
+    <style>
+        .circle1{
+            height: 200px;
+            width: 200px;
+            border: 4px solid #d3d3d3;
+            border-radius:100% ;
+            position: relative;
+            position: absolute;
+        }
+        .circle2{
+            height: 180px;
+            width: 180px;
+            position: relative;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+            border-radius:100% ;
+            
+        }
+        .circle3.center{
+            height: 170px;
+            width: 170px;
+            border-radius:100% ;
+            border: 2px solid green;
+
+        }
+        .circle2 {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            box-sizing: border-box;
+            border-radius: 100%;
+            border: 20px solid red;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+       }
+      
+        
+        .circle2 .center {
+            height: 6px;
+            width: 6px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background: #262626;
+            border-radius: 100%;
+       }
+       
+        .circle2 .hour {
+            width: 3px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            animation: time 216000s infinite linear;
+       }
+        .circle2 .hour:before {
+            position: absolute;
+            content: "";
+            background: #262626;
+            height: 60px;
+            width: 3px;
+            top: 30px;
+       }
+        .circle2 .minute {
+            width: 1px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            animation: time 3600s infinite linear;
+       }
+        .circle2 .minute:before {
+            position: absolute;
+            content: "";
+            background: #262626;
+            height: 40px;
+            width: 1px;
+            top: 50px;
+       }
+        .circle2 .second {
+            width: 2px;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            animation: time 60s infinite linear;
+       }
+        .circle2 .second:before {
+            position: absolute;
+            content: "";
+            background: #fd1111;
+            height: 45px;
+            width: 2px;
+            top: 45px;
+       }
+        @keyframes time {
+            to {
+                transform: rotate(360deg);
+           }
+       }
+    </style>
+    <title>circle2</title>
+</head>
+<body>
+    <!-- <div class="circle3"> -->
+    <div class="circle1">
+
+        <div class="circle2">
+            <div class="circle3">
+               <div class="center"></div>
+               <div class="hour"></div>
+               <div class="minute"></div>
+               <div class="second"></div>
+            </div> 
+        </div>
+    </div>
+    <!-- </div> -->
+</body>
+</html>
