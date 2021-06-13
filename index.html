@@ -8,7 +8,7 @@
     
     <title>Frontend-THA's</title>
     <style>
-        body {
+       body {
             background: rgb(221, 94, 137);
             background: linear-gradient(90deg, rgba(221, 94, 137, 1) 47%, rgba(247, 187, 151, 1) 100%);
         }
@@ -36,6 +36,7 @@
                       border: 3px solid black;
                       color: black;
                       box-shadow: 0 15px #d3d3d3;
+                      animation: text 1500ms forwards ease-in;
                     }
           
           .btn:active {
@@ -46,7 +47,18 @@
               text-align: center;
           }
           h1{
+              color: white;
               font-size: 5rem;
+              cursor: pointer;
+          }
+          h1:hover{
+            color: black;
+            animation: text 1500ms infinite ease-in;
+          }
+          @keyframes text{
+              from{color:#ffffff} 
+        
+              to{color: #000}
           }
 
     </style>
