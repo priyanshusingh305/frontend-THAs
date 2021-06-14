@@ -1,4 +1,5 @@
 ## Welcome to GitHub Pages
+[navigation]{https://priyanshusingh305.github.io/frontend-THAs/}
 
 You can use the [editor on GitHub](https://github.com/priyanshusingh305/frontend-THAs/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
