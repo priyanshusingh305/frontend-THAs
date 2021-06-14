@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./images/clock.png">
     <style>
-        .middlecircle
-    {
-            height: 200px;
-            width: 200px;
-            border: 30px solid red;
-            border-radius:100% ;
-            position: relative;
+        body {
+            background-color: #363945;
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
         }
-        .innercircle{
-            height: 180px;
-            width: 180px;
+
+        .clock {
+            margin: auto;
+            width: 32%;
+            margin-top: 5rem;
+
+        }
+
+        .middlecircle {
+            height: 400px;
+            width: 400px;
+            border: 60px solid red;
+            border-radius: 100%;
+            position: relative;
+            background-color: aliceblue;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+
+        }
+
+        .innercircle {
+            height: 360px;
+            width: 360px;
             position: absolute;
-            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
-            border-radius:100% ;
-            
+            box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.7);
+            border-radius: 100%;
+
         }
 
         .innercircle {
             position: relative;
-            height: 200px;
-            width: 200px;
+            height: 400px;
+            width: 400px;
             box-sizing: border-box;
             border-radius: 100%;
-            border: 2px solid white;
+            border: 4px solid white;
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
             margin: auto;
-       }
-      
-        
+        }
+
+
         .innercircle .center {
-            height: 6px;
-            width: 6px;
+            height: 12px;
+            width: 12px;
             position: absolute;
             left: 0;
             right: 0;
@@ -50,77 +67,87 @@
             margin: auto;
             background: #262626;
             border-radius: 100%;
-       }
-       
+        }
+
         .innercircle .hour {
-            width: 3px;
+            width: 6px;
             height: 100%;
             position: absolute;
             left: 0;
             right: 0;
             margin: 0 auto;
             animation: time 3600s infinite linear;
-       }
+        }
+
         .innercircle .hour:before {
             position: absolute;
             content: "";
             background: #262626;
-            height: 66px;
-            width: 3px;
-            top: 30px;
-       }
+            height: 132px;
+            width: 6px;
+            top: 60px;
+        }
+
         .innercircle .minute {
-            width: 1px;
+            width: 2px;
             height: 100%;
             position: absolute;
             left: 0;
             right: 0;
             margin: 0 auto;
             animation: time 60s infinite linear;
-       }
+        }
+
         .innercircle .minute:before {
             position: absolute;
             content: "";
             background: #262626;
-            height: 45px;
-            width: 1px;
-            top: 50px;
-       }
-        .innercircle .second {
+            height: 90px;
             width: 2px;
+            top: 100px;
+        }
+
+        .innercircle .second {
+            width: 4px;
             height: 100%;
             position: absolute;
             left: 0;
             right: 0;
             margin: 0 auto;
             animation: time 1s infinite linear;
-       }
+        }
+
         .innercircle .second:before {
             position: absolute;
             content: "";
             background: #fd1111;
-            height: 64px;
-            width: 2px;
-            top: 45px;
-       }
+            height: 128px;
+            width: 4px;
+            top: 90px;
+        }
+
         @keyframes time {
             to {
                 transform: rotate(360deg);
-           }
-       }
+            }
+        }
     </style>
     <title>clock</title>
 </head>
-<body>
-<div class="middlecircle">
 
-        <div class="innercircle">
-               <div class="center"></div>
-               <div class="hour"></div>
-               <div class="minute"></div>
-               <div class="second"></div>
-        </div> 
+<body>
+    <div class="clock">
+        <div class="middlecircle">
+
+            <div class="innercircle">
+                <div class="center"></div>
+                <div class="hour"></div>
+                <div class="minute"></div>
+                <div class="second"></div>
+            </div>
+        </div>
     </div>
-</div>
+    </div>
 </body>
+
 </html>
