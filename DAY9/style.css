@@ -2,7 +2,6 @@ body {
     background-color: #f86daa;
     margin: 0;
     display: block;
-   
     padding: 0px;
 }
 .custom-shape-divider-top-1624566418 {
@@ -77,4 +76,8 @@ body {
         inset -6px -6px 13px #ffffff;
     border-radius: 15px;
 
+}
+.seatsleft{
+    display: float;
+    float: right;
 }
