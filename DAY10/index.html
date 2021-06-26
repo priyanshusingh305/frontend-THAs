@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/icon.png">
+    <title>MEMORY GAME</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            background-image: url(./images/bcg.jpg);
+            background-color: #cccccc;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            height: 75vh;
+            width: 75%;
+            margin-top: 8%;
+        }
+
+        .wrapper {
+            position: relative;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 20px;
+            height: 75vh;
+        }
+
+        .card {
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: all 0.5s ease;
+        
+            
+        }
+        .card.clicked{
+            transform: rotateY(180deg)
+        }
+
+        .back {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            backface-visibility: hidden;
+            transform: rotateY(180deg);
+        }
+        .front{
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: rgba(144, 19, 254, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            cursor: pointer;
+            backface-visibility: hidden;
+            backface-visibility: hidden;
+
+        }
+       .back{
+          background-image: url("images/3.png");
+            background-position: center;
+            background-size:cover;
+            width: 100%;
+            height: 100%;
+        }
+        
+
+        /*#card1 {
+            background-image: url(./images/2.png);
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+        }*/
+
+       /*/ .card:hover {
+            background: rgba(74, 144, 226, 0.25);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }*/
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            
+            <div class="card" id="card1">
+                <div class="front">front</div>
+                <div class="back"> back</div>
+            </div>
+            <div class="card" id="card2">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+            <div class="card" id="card3">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+            <div class="card" id="card4">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+            <div class="card" id="card5">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+            <div class="card" id="card6">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+            <div class="card" id="card7">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+            <div class="card" id="card8">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+            <div class="card" id="card9">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+            <div class="card" id="card10">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+            <div class="card" id="card11">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+            <div class="card" id="card12">
+                <div class="front"></div>
+                <div class="back"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
