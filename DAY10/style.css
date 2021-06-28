@@ -1,7 +1,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-image: url("/bcg.jpg");
+    background-image: url(./bcg.jpg);
     background-color: #cccccc;
     background-repeat: no-repeat;
 }
