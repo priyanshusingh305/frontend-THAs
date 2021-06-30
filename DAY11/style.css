@@ -42,7 +42,7 @@ body {
     border: 4px solid rgba(255, 255, 255, 0.18);
     width: 20vh;
     margin-left: 5vh;
-    -webkit-text-stroke: medium;
+/*     -webkit-text-stroke: medium; */
 }
 #btn:hover{
     background: rgba(255, 0, 0, 0.25);
