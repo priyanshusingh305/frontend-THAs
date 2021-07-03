@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    position: relative;
+    background-color: lemonchiffon;
+}
+
+.cursor {
+    position: absolute;
+    height: 20px;
+    width:20px;
+    background: red;
+    display: none;
+    pointer-events: none;
+    border-radius: 50%;
+}
+
