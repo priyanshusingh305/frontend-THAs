@@ -49,7 +49,7 @@ function removeCards() {
         UImoves.innerHTML = `Moves : ${move}`;
         UIscore.textContent = `Score : ${score}`;
         resetBoard();
-    }, 1500)
+    }, 800)
 }
 
 function unflipCards() {
@@ -61,7 +61,7 @@ function unflipCards() {
         UImoves.innerHTML = `Moves : ${move}`;
         UIscore.textContent = `Score : ${score}`;
         resetBoard();
-    }, 1500)
+    }, 1000)
 }
 
 function resetBoard() {
