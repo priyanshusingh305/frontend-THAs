@@ -42,7 +42,7 @@ function checkForMatch() {
 function removeCards() {
     lockboard = true;
     score += 5;
-    move++;
+    move=move+2;
     setTimeout(() => {
         firstCard.innerHTML = "";
         secondCard.innerHTML = "";
@@ -54,7 +54,7 @@ function removeCards() {
 
 function unflipCards() {
     lockboard = true;
-    move++;
+    move=move+2;
     setTimeout(() => {
         firstCard.classList.remove('flip');
         secondCard.classList.remove('flip');
