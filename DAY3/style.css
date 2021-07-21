@@ -35,3 +35,8 @@ body{
 .data{ margin: 20px;
   padding: 20px;
 }
+.main{
+  height: 100vh;
+  width: 100vh;
+  padding-left:23% ;
+}
