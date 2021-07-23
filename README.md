@@ -13,8 +13,8 @@ priyanshusingh305.github.io/frontend-THAs/
 |THA3| Resume                         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY03)  |
 |THA4| Clock                          | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY04)  |
 |THA5| Calulator                      | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY05)  |
-|THA6| JS Objects                     | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY06)  |
-|THA7| More on Js Objects             | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY07)  |
+|THA6| JS Objects                     | ✅ [(Visit Here)](https://github.com/priyanshusingh305/frontend-THAs/tree/main/DAY06)  |
+|THA7| More on Js Objects             | ✅ [(Visit Here)](https://github.com/priyanshusingh305/frontend-THAs/tree/main/DAY07)  |
 |THA8| css 100 dAYs Challenge         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY08)  |
 |THA9| Movie Seat Arrangement         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY09)  |
 |THA10| Memory Game                    | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs0) |
