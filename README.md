@@ -17,11 +17,11 @@ priyanshusingh305.github.io/frontend-THAs/
 |THA7| More on Js Objects             | ✅ [(Visit Here)](https://github.com/priyanshusingh305/frontend-THAs/tree/main/DAY07)  |
 |THA8| css 100 dAYs Challenge         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY08)  |
 |THA9| Movie Seat Arrangement         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY09)  |
-|THA10| Memory Game                    | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs0) |
-|THA11| Awesome Quiz                   | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs1) |
-|THA12| Js Todo List with LocalStorage | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs2) |
-|THA13| Create a Website with API      | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs3) |
-|THA14| Make something with Events      | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs4) |
+|THA10| Memory Game                    | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY10) |
+|THA11| Awesome Quiz                   | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY11) |
+|THA12| Js Todo List with LocalStorage | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY12) |
+|THA13| Create a Website with API      | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY13) |
+|THA14| Make something with Events      | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY14) |
 |THA15| Func and Class Component React.js      | ✅ [(Visit Here)](https://nqftx.csb.app/) |
 |THA16| Meme Card                         | ✅ [(Visit Here)](https://zn0s1.csb.app/) |
 |THA16| Checker Board                    | ✅ [(Visit Here)](https://c8hso.csb.app/) |
@@ -30,9 +30,6 @@ priyanshusingh305.github.io/frontend-THAs/
 |THA18| Calori List With Conditional Check                   | ✅ [(Visit Here)](https://o8e9q.csb.app/) |
 |THA19| Buttons With there Own State                   | ✅ [(Visit Here)](https://joqog.csb.app/) |
 |THA20| Calori List with Delete Feature                   | ✅ [(Visit Here)](https://7ochz.csb.app/) |
-|THA21| Calori with Add, Delete, Edit  | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY21/build/) |
-|THA22| Meme generator App             | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY22/build/) |
-|THA23| House Pet Gallary App - Custom Hook - routes | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY23/build/) |
 
 
 
