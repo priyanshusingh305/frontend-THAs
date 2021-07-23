@@ -9,14 +9,14 @@ priyanshusingh305.github.io/frontend-THAs/
 |THA's| Title                         | Status                                                                |
 |--| ------------------------------ | --------------------------------------------------------------------- |
 |THA1| Letter                         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY01)  |
-|THA2| Designing the Letter           | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day02)  |
-|THA3| Resume                         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day03)  |
-|THA4| Clock                          | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day04)  |
-|THA5| Calulator                      | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day05)  |
-|THA6| JS Objects                     | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day06)  |
-|THA7| More on Js Objects             | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day07)  |
-|THA8| css 100 days Challenge         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day08)  |
-|THA9| Movie Seat Arrangement         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day09)  |
+|THA2| Designing the Letter           | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY02)  |
+|THA3| Resume                         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY03)  |
+|THA4| Clock                          | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY04)  |
+|THA5| Calulator                      | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY05)  |
+|THA6| JS Objects                     | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY06)  |
+|THA7| More on Js Objects             | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY07)  |
+|THA8| css 100 dAYs Challenge         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY08)  |
+|THA9| Movie Seat Arrangement         | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY09)  |
 |THA10| Memory Game                    | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs0) |
 |THA11| Awesome Quiz                   | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs1) |
 |THA12| Js Todo List with LocalStorage | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs2) |
@@ -30,9 +30,9 @@ priyanshusingh305.github.io/frontend-THAs/
 |THA18| Calori List With Conditional Check                   | ✅ [(Visit Here)](https://o8e9q.csb.app/) |
 |THA19| Buttons With there Own State                   | ✅ [(Visit Here)](https://joqog.csb.app/) |
 |THA20| Calori List with Delete Feature                   | ✅ [(Visit Here)](https://7ochz.csb.app/) |
-|THA21| Calori with Add, Delete, Edit  | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day21/build/) |
-|THA22| Meme generator App             | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day22/build/) |
-|THA23| House Pet Gallary App - Custom Hook - routes | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/Day23/build/) |
+|THA21| Calori with Add, Delete, Edit  | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY21/build/) |
+|THA22| Meme generator App             | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY22/build/) |
+|THA23| House Pet Gallary App - Custom Hook - routes | ✅ [(Visit Here)](https://priyanshusingh305.github.io/frontend-THAs/DAY23/build/) |
 
 
 
