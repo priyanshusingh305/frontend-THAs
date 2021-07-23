@@ -46,11 +46,11 @@ body {
 }
 
 .item-list {
-
   margin-left: 10px
 }
 
 .item {
+  overflow: hidden;
   /* background: #b3cde0; */
   background: #595260;  /* fallback for old browsers */
   margin: 10px 0;
