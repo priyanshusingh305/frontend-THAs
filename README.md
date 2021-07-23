@@ -1,7 +1,7 @@
 # DevNest-FrontEnd
 
 ```bash
-https://rex-arnab.github.io/DevNest-FrontEnd/
+priyanshusingh305.github.io/frontend-THAs/
 ```
 
 # Completed THA's
