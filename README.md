@@ -28,7 +28,7 @@ priyanshusingh305.github.io/frontend-THAs/
 |THA17| Calori List With Props                   | ✅ [(Visit Here)](https://pedantic-wozniak-376e0e.netlify.app/) |
 |THA18| Checker Board with Conditional Check  | ✅ [(Visit Here)](https://kind-goldstine-ba156b.netlify.app/) |
 |THA19| Buttons With there Own State                   | ✅ [(Visit Here)](https://priyanshunda.netlify.app/) |
-|THA20| Calori List with Delete Feature                   | ✅ [(Visit Here)]() |
+|THA20| Calori List with Delete Feature                   | ✅ [(Visit Here)](https://suspicious-dijkstra-9f818e.netlify.app/) |
 
 
 
