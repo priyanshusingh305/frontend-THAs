@@ -1,8 +1,34 @@
+*{
+ background-color: rgba(47, 79, 79, 0.973);
+}
 .App {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgba(240, 248, 255, 0.863);
 }
 
 .App * {
     margin: 10px 0px;
     padding: 0px 10px;
+}
+input{
+    border-radius: 5px;
+    color: rgba(240, 248, 255, 0.863);
+background: #2f4f4f;
+box-shadow: inset 20px 20px 18px #284343,
+            inset -20px -20px 18px #365b5b;
+}
+input:active{
+    border-radius: 5px;
+    color: rgba(240, 248, 255, 0.863);
+    background: #2f4f43;
+box-shadow: inset 20px 20px 18px #284343,
+            inset -20px -20px 18px #365b5b;
+}
+text{
+    color: rgba(240, 248, 255, 0.863);
 }

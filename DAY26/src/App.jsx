@@ -9,7 +9,9 @@ function App() {
   const Email = useSelector((state)=>state.inputEmail);
   const dispatch = useDispatch();
   return (
+
     <div className="App">
+    <h1>FORM WITH HELP OF REACT-REDUX</h1>
       <h3>Input</h3>
       <input placeholder="Name" onChange={(e)=>{
         dispatch(changeName(e.target.value));
