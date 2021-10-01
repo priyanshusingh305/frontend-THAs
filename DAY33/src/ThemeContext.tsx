@@ -1,13 +1,15 @@
+import { Theme } from "pretty-format";
 import { createContext } from "react";
-interface ThemecontextType{
-    theme:boolean,
-    setTheme:()=>void
+
+export interface ThemecontextType {
+    theme: boolean,
+    setTheme: (theme: boolean) => void
 }
 
-const initialState = {
-    theme:false,
-    setTheme:(theme :boolean)=> {
-
-    }
+const initialState :ThemecontextType= {
+    theme: false,
+    setTheme: (theme: boolean) => {}
 }
-const ThemeContext = createContext(initialState);
+const ThemeContext = createContext<ThemecontextType>(initialState);
+
+export default ThemeContext;
