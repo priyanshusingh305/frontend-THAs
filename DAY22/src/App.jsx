@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src={'./meme.svg'} onClick={()=>{setMeme(null)}}></img>
+      <img className='logo' src={'./meme.svg'}  onClick={()=>{setMeme(null)}}></img>
       <h1 onClick={()=>{setMeme(null)}}> MEME GEN </h1>
       {meme === null ? (<Template templates={templates} setMeme={setMeme}/>) : (<Meme meme={meme} setMeme={setMeme}/>)}
       

@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
   margin: 0%;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
   /* background-color: #222831; */
   background-color: #472183;
@@ -34,13 +36,17 @@
   text-align:center;
   margin: 10px 0;
   display: inline-block;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .App img{
   height: 2em;
   /* margin-left: 40%; */
-  margin: 0.5em;
+  /* margin: 0.5em; */
 
+}
+.logo{
+  display: inline-block;
+  margin-bottom: 1em;
 }
 .Meme{
   text-align: center;
@@ -89,6 +95,8 @@
 }
 
 @media (max-width: 768px) {
+  
+
   .template{
     width: 50%;
 
