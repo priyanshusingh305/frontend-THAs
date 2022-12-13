@@ -23,6 +23,7 @@ btn.addEventListener('click', () => {
         weather();
         temp();
         wind();
+        
     }
 })
 function temp(){

@@ -3,11 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   /* background-color: #222831; */
-  background-color: #45046A;
+  background-color: #472183;
   /* color: #EEEEEE; */
-  color: #F1EBBB;
+  color: #F1F6F5;
+  overflow-x: hidden;
+  user-select: none;
 
 }
+
 .template{
   width: 33.333%;
   /* width: 20%; */
@@ -19,13 +22,13 @@
   width: 100%;
   height: 500px;
   /* border:  4px solid #00ADB5; */
-  border:  3px dotted #B5076B;
+  border:  3px dotted #82C3EC;
   border-radius: 1px ;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   /* background-color:#393E46; */
-  background-color: #5C2A9D;
+  background-color: #4B56D2;
 }
 .App h1{
   text-align:center;
@@ -36,6 +39,8 @@
 .App img{
   height: 2em;
   /* margin-left: 40%; */
+  margin: 0.5em;
+
 }
 .Meme{
   text-align: center;
@@ -49,27 +54,27 @@
   width:fit-content;
   height: 500px;
   /* border:  4px solid #00ADB5; */
-  border:  3px dotted #B5076B;
+  border:  3px dotted #82C3EC;
   border-radius: 1px ;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center;
+  background-position: contain;
   /* background-color:#393E46; */
-  background-color: #5C2A9D;
+  background-color: #4B56D2;
   margin-left: auto;
   position:inherit;
 }
 .Meme input{
   margin: 10px;
   padding: 5px;
-  background-color: #5C2A9D;
-  border:  2px dotted #B5076B;
+  background-color: #4B56D2;
+  border:  2px dotted #82C3EC;
 }
 .Meme button{
   margin: 10px;
   padding: 5px;
-  background-color: #5C2A9D;
-  border:  2px dotted #B5076B;
+  background-color: #4B56D2;
+  border:  2px dotted #82C3EC;
 }
 .Meme button:active{
   transform: translateY(3px);
@@ -81,4 +86,25 @@
 
 .template:hover{
   transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .template{
+    width: 50%;
+  }
+
+
+
+  .template .image{
+    width: 11.3rem;
+    height: 11.3rem;
+ 
+  }
+
+  .Meme img{
+    width:95vw;
+    height: 23rem;
+    background-size: 10rem;
+  }
+
 }
